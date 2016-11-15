@@ -12,20 +12,22 @@ int main()
     Sum = n1 + n2;
 
     // display output     
-    printf("%d + %d = %d\n", n1, n2, Sum);
+    printf("%d + %d = %d\n\n", n1, n2, Sum);
 	
 	// check if the sum is even or odd, 
     // and print result to screen
-    if(Sum % 2 == 0) printf("%d is even\n", Sum);
-    else printf("%d is odd\n", Sum);
+    if(Sum % 2 == 0) printf("%d is even\n\n", Sum);
+    else printf("%d is odd\n\n", Sum);
 
+	// checks which number is bigger
+	//and prints the numbers in increasing order
 	if(n1>=n2) 
 	{
-		printf("Numbers in increasing order: %d, %d\n", n1, n2);
+		printf("Numbers in increasing order: %d, %d\n\n", n1, n2);
 	}
 		else
 		{
-			printf("Numbers in increasing order: %d, %d", n2, n1);
+			printf("Numbers in increasing order: %d, %d\n\n", n2, n1);
 		}	
     return 0;
 }
