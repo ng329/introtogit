@@ -19,5 +19,13 @@ int main()
     if(Sum % 2 == 0) printf("%d is even\n", Sum);
     else printf("%d is odd\n", Sum);
 
+	if(n1>=n2) 
+	{
+		printf("Numbers in increasing order: %d, %d\n", n1, n2);
+	}
+		else
+		{
+			printf("Numbers in increasing order: %d, %d", n2, n1);
+		}	
     return 0;
 }
